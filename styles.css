@@ -1,0 +1,584 @@
+@font-face {
+    font-family: letra1;
+    src: url(fuentes/MyriadPro-Light.otf);
+}
+@font-face {
+    font-family: letra2;
+    src: url(fuentes/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: letra3;
+    src: url(fuentes/AmazonEmberCdRC_BdIt.ttf);
+}
+body{
+    background-color: white;
+}
+/* Barra Superior =======================================================================================================================*/
+.barraSuperior{
+    position: fixed;
+    left: -1px; 
+    top: -0px;
+    width: 100vw;
+    height: 16vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3266cc;
+    z-index: 2;
+}
+.barraSuperior .Inicio {
+    position: relative;
+    top: 41px;
+    text-decoration: none;
+    color: white;
+    font-family: letra1;
+}
+.barraSuperior .QueEs {
+    position: relative;
+    top: 41px;
+    text-decoration: none;
+    color: white;
+    font-family: letra1;
+}
+.barraSuperior .imgBS{
+    position: relative;
+    top: 16px;
+    width: 25vw;
+    height: 10vh;
+    font-family: letra1;
+}
+.barraSuperior .Entrega{
+    position: relative;
+    top: 41px;    
+    text-decoration: none;
+    color: white;
+    font-family: letra1;
+}
+.cuadroConsultar{
+    position: relative;
+    top: 36px;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 15px;
+    background-color: white;
+}
+.Consultar{
+    position: relative;
+    left: 20px;
+    top: 7px;
+    text-decoration: none;
+    color: black;
+    font-family: letra1;
+}
+/* Content1 ============================================================================================================================ */
+.content1{
+    position: absolute;
+    top: 16.2%;
+    right: -0.03%;
+    width: 98.7vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.content1 .fondoContent1{
+    position: relative;
+    width: 98.7vw;
+    height: 100vh;
+}
+.ConsultaTuEstado{
+    position: absolute;
+    left: 5%;
+    bottom: 11%;
+    width: 33vw;
+    height: 80vh;
+    border-radius: 5%;
+    background-color: white;
+}
+.ConsultaTuEstado .bloque1Consulta{
+    position: absolute;
+    left: 4.5%;
+    bottom: 67%;
+    width: 30vw;
+    height: 25vh;
+    background-color: white;
+    text-align: center;
+}
+.letras1{
+    position: relative;
+    bottom: 16%;
+    font-size: 170%;
+    font-family: letra2;
+}
+.letras2{
+    position: relative;
+    bottom: 30%;
+    font-size: x-small;
+    font-family: letra1;
+}
+.ConsultaTuEstado .bloque2Consulta{
+    position: absolute;
+    left: 4.5%;
+    top: 30%;
+    width: 30vw;
+    height: 55vh;
+    font-family: Myriad Pro, Regular;
+    background-color:  white;
+}
+.bloque2Consulta input{
+    position: relative;
+    left: 5%;
+    width: 25vw;
+    height: 4vh;
+}
+.bloque2Consulta label{
+    position: relative;
+    left: 5%;
+    font-family: letra2;
+}
+.cuadroAzulConsultar{
+    position:absolute;
+    left: 35%;
+    bottom:-0.1%;
+    width: 8vw;
+    height: 4.5vh;
+    border-radius: 8px;
+    background-color: #147cfb;
+}
+.cuadroAzulConsultar .ConsultarFormulario{
+    position: relative;
+    left: 25%;
+    top: 8%;
+    text-decoration: none;
+    color: white;
+    font-size:13px;
+    font-family: letra1;
+}
+.bloqueDLetras{
+    position: relative;
+    left: 50.5%;
+    bottom:67%;
+    width: 40vw;
+}
+.bloqueDLetras .LetrasD1{
+    font-size:34px;
+    text-align: center;
+    font-family: letra1;
+}
+.bloqueDLetras .LetrasD2{
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+    font-family: letra1;
+    text-align: center;
+}
+.BotonConocerMás{
+    position: relative;
+    left: 37%;
+    bottom: 5%;
+    width: 8vw;
+    height: 4.5vh;
+    border-radius: 8px;
+    background-color: #147cfb;
+}
+.BotonCMás{
+    position: relative;
+    left: 15%;
+    top: 10%;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: letra1;
+    color: white;
+}
+/* Content2 =============================================================================================================================*/
+.content2{
+    position: absolute;
+    right: -0.03%;
+    top: 119%;
+    width: 98.7vw;
+    height: 130vh;
+    overflow: hidden;
+}
+.titulo{
+    position:absolute;
+    left: 30%;
+    top: 10%;
+    width: 40vw;
+    height: 15vh;
+    font-size:260%;
+    font-family: letra1;
+}
+.bloqueLetrasC2{
+    position:absolute;
+    left: 10%;
+    top: 26%;
+    width: 45%;
+    height: 70vh;
+    font-size:150%;
+    font-family: letra1;
+    text-align: center;
+}
+.botonConocerEntrega{
+    position: relative;
+    left: 23%;
+    top:84%;
+    width: 20vw;
+    height: 8%;
+}
+.botonConocerEntrega .botonC2{
+    text-decoration: none;
+    color: black;
+    font-family: letra1;
+}
+.botonConocerEntrega img{
+    position: relative;
+    left: 40%;
+    top: 50%;
+    width: 2vw;
+}
+.imagenGlobo{
+    position: relative;
+    left: 40%;
+    top: 5%;
+    width: 64vw;
+}
+/* Content3 =============================================================================================================================*/
+.content3{
+    position: absolute;
+    right: -0.03%;
+    top: 252%;
+    width: 98.7vw;
+    height: 115vh;
+    overflow: hidden;
+}
+.TituloEtapas{
+    position:absolute;
+    top: -6%;
+    width: 98.7vw;
+    height: 10vh;
+    font-size:263%;
+    font-family: letra1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sudtitulosC3{
+    position: relative;
+    top: 12%;
+    width: 98.7vw;
+    height: 10vh;
+    display: flex;
+    font-size: 180%;
+    font-family: letra1;
+    justify-content: space-evenly;
+}
+.FechasEtapas{
+    position: relative;
+    left: 7%;
+    top: 15%;
+    width: 88vw;
+    height: 10vh;
+    display: flex;
+    font-size: 210%;
+    font-family: letra2;
+    justify-content: space-evenly;
+}
+.tituloBancos{
+    position:absolute;
+    top: 35%;
+    width: 98.7vw;
+    height: 10vh;
+    font-size:263%;
+    font-family: letra1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgBancos{
+    position: absolute;
+    top: 48%;
+    height: 70%;
+}
+.imgBancos .img1{
+    position: relative;
+    left: 12%;
+    width: 20vw;
+}
+.imgBancos .img2{
+    position: relative;
+    left: 15%;
+    width: 26vw;
+}
+.imgBancos .img3{
+    position: relative;
+    left: 16%;
+    bottom: 30px;
+    width: 27vw;
+}
+.imgBancos .img4{
+    position: relative;
+    right: 41%;
+    top: 15%;
+    width: 14vw;
+}
+.imgBancos .img5{
+    position: relative;
+    left: 52%;
+    bottom:9%;
+    width: 16vw;
+}
+.botonPFrecuentes{
+    position: relative;
+    left: 42%;
+    top:72%;
+    width: 20vw;
+    height: 8vh;
+}
+.botonPFrecuentes .botonC3{
+    text-decoration: none;
+    color: black;
+    font-family: letra1;
+}
+.botonPFrecuentes img{
+    position: relative;
+    left: 33%;
+    top: 50%;
+    width: 2vw;
+}
+/* Content4 =============================================================================================================================*/
+.content4{
+    position: absolute;
+    right: -0.03%;
+    top: 370%;
+    width: 98.7vw;
+    height: 90vh;
+}
+.tituloC4{
+    position:absolute;
+    top: -6%;
+    width: 98.7vw;
+    height: 10vh;
+    font-size:263%;
+    font-family: letra1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.número1C4{
+    position:relative;
+    top: 14%;
+    width: 98.7vw;
+    height: 32%;
+    text-align: center;
+}
+.circulo1{
+    position: relative;
+    left: 48%;
+    width: 3vw;
+    height: 6.5vh;
+    border-radius: 20px;
+    background-color: #147cfb;
+}
+.circulo1 .N1{
+    position: relative;
+    top: 20%;
+    font-family: letra1;
+}
+.número1C4 .pregunta1{
+    position: relative;
+    bottom: 3%;
+    font-size: 150%;
+    font-family: letra3;
+}
+.número1C4 .respuesta1{
+    position: relative;
+    bottom: 8%;
+    font-size: 120%;
+    font-family: letra1;
+}
+.número2C4{
+    position:relative;
+    top: 20%;
+    width: 98.7vw;
+    height: 32%;
+    text-align: center;
+}
+.circulo2{
+    position: relative;
+    left: 48%;
+    width: 3vw;
+    height: 6.5vh;
+    border-radius: 20px;
+    background-color: #147cfb;
+}
+.circulo2 .N2{
+    position: relative;
+    top: 20%;
+    font-family: letra1;
+}
+.número2C4 .pregunta2{
+    position: relative;
+    bottom: 3%;
+    font-size: 150%;
+    font-family: letra3;
+}
+.número2C4 .respuesta2{
+    position: relative;
+    bottom: 8%;
+    font-size: 120%;
+    font-family: letra1;
+}
+.botonVerMás1{
+    position: relative;
+    left: 45.5%;
+    top:20%;
+    width: 20vw;
+    height: 8vh;
+}
+.botonVerMás1 .botonC4{
+    text-decoration: none;
+    color: black;
+    font-family: letra1;
+}
+.botonVerMás1 img{
+    position: relative;
+    left: 16%;
+    top: 50%;
+    width: 2vw;
+}
+/* Content5 =============================================================================================================================*/
+.content5{
+    position: absolute;
+    right: -0.03%;
+    top: 462%;
+    width: 98.7vw;
+    height: 90vh;
+    background-color: rgb(225, 136, 35);
+}
+.número3C5{
+    position:relative;
+    top: -1%;
+    width: 98.7vw;
+    height: 32%;
+    text-align: center;
+}
+.circulo3{
+    position: relative;
+    left: 48%;
+    width: 3vw;
+    height: 6.5vh;
+    border-radius: 20px;
+    background-color: #147cfb;
+}
+.circulo3 .N3{
+    position: relative;
+    top: 20%;
+    font-family: letra1;
+}
+.número3C5 .pregunta3{
+    position: relative;
+    bottom: 3%;
+    font-size: 150%;
+    font-family: letra3;
+}
+.número3C5 .respuesta3{
+    position: relative;
+    bottom: 8%;
+    font-size: 120%;
+    font-family: letra1;
+}
+.número4C5{
+    position:relative;
+    top: 13%;
+    width: 98.7vw;
+    height: 32%;
+    text-align: center;
+}
+.circulo4{
+    position: relative;
+    left: 48%;
+    width: 3vw;
+    height: 6.5vh;
+    border-radius: 20px;
+    background-color: #147cfb;
+}
+.circulo4 .N4{
+    position: relative;
+    top: 20%;
+    font-family: letra1;
+}
+.número4C5 .pregunta4{
+    position: relative;
+    bottom: 3%;
+    font-size: 150%;
+    font-family: letra3;
+}
+.número4C5 .respuesta4{
+    position: relative;
+    bottom: 8%;
+    font-size: 120%;
+    font-family: letra1;
+}
+.botonVerMás2{
+    position: relative;
+    left: 45.5%;
+    top:20%;
+    width: 20vw;
+    height: 8vh;
+}
+.botonVerMás2 .botonC5{
+    text-decoration: none;
+    color: black;
+    font-family: letra1;
+}
+.botonVerMás2 img{
+    position: relative;
+    left: 16%;
+    top: 50%;
+    width: 2vw;
+}
+/* Content6 =============================================================================================================================*/
+.content6{
+    position: absolute;
+    right: -0.03%;
+    top: 554%;
+    width: 98.7vw;
+    height: 90vh;
+    background-color: rgb(205, 36, 180);
+}
+.número5C6{
+    position:relative;
+    top: -1%;
+    width: 98.7vw;
+    height: 32%;
+    text-align: center;
+}
+.circulo5{
+    position: relative;
+    left: 48%;
+    width: 3vw;
+    height: 6.5vh;
+    border-radius: 20px;
+    background-color: #147cfb;
+}
+.circulo5 .N5{
+    position: relative;
+    top: 20%;
+    font-family: letra1;
+}
+.número5C6 .pregunta5{
+    position: relative;
+    bottom: 3%;
+    font-size: 150%;
+    font-family: letra3;
+}
+.número5C6 .respuesta5{
+    position: relative;
+    bottom: 8%;
+    font-size: 120%;
+    font-family: letra1;
+}
+.cuadroAzulFin{
+    position: relative;
+    left: 5%;
+    top: 19%;
+    width: 70vw;
+    height: 30vh;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #147cfb;
+}
